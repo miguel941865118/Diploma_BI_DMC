@@ -1,5 +1,5 @@
 import streamlit as st
-
+import pandas as pd
 st.title("Proyecto Final Diploma BI")
 
 st.sidebar.title("Parámetros")
