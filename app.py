@@ -8,3 +8,5 @@ st.image("Python_logo.png",width = 500)
 st.sidebar.image("DMC.png",width = 100)
 
 st.write("Elaborado por: Miguel Herrera")
+
+archivo = st.file_uploader("Cargue el archivo excel o csv")
