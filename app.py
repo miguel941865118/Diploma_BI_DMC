@@ -12,7 +12,7 @@ st.write("Elaborado por: Miguel Herrera")
 archivo = st.file_uploader("Cargue el archivo excel o csv")
 
 if archivo is not None :
-  if archivo.name.endwith(".csv"):
+  if archivo.name.endswith(".csv"):
     data = pd.read_csv(archivo)
   elif archivo.name.endswith(".xlsx"):
     data = pd.read_excel(archivo)
